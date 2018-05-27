@@ -1,0 +1,462 @@
+@charset "UTF-8";
+@media screen and (max-width: 1700px) {
+
+body {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+/*Formatação do Header */
+
+div#header {
+    background-color:white;
+    margin: -8px;
+    margin-bottom: 0px;
+    padding: 4% 4% 4% 4%;
+}
+
+/*Formatação do Logo*/
+
+div.bloco-logo {
+    width: 15%;
+    height: 5%;
+    margin: -35px;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: Agency FB;
+    text-align: center;
+}
+
+.logo:hover {
+    transition:all 0.3s ease;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    color: aquamarine;
+}
+
+.logo:not(:hover) {
+    transition:all 0.3s ease;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+/*Formatação do Mine-Menu*/
+
+#mine-menu {
+    float: right;
+    width: 20%;
+    height: 5%;
+    margin-top: -3px;
+}
+
+#mine-menu ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+#mine-menu ul li {
+    display: inline;
+}
+
+#mine-menu ul li a {
+    display: inline-block;
+    margin: 4px;
+}
+
+#mine-menu ul li a:hover {
+    transition:all 0.3s ease;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#mine-menu ul li a:not(:hover) {
+    transition:all 0.3s ease;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+/*Formatação do Dropdown*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,0.5);
+    padding: 12px 5px;
+    z-index: 10;
+}
+
+.dropdown-content ul li a {
+    padding: 5px;
+    color: aquamarine;
+    text-decoration: none;
+    font-family: Agency FB;
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition:all 0.3s ease;
+    background-color: rgba(0, 0, 0,0.7);
+    color: aquamarine;
+}
+
+.dropdown:hover {
+    transition: all 0.3s ease;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*Formatação do Menu-Princial*/
+
+#menu {
+    position: relative;
+    padding: 1%;
+    width: 40%;
+    float: right;
+    margin: -9px;
+}
+
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-family: Agency FB;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: -2px;
+}
+
+#menu ul li a:hover {
+    color: aquamarine;
+    transition:all 0.3s ease;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#menu ul li a:not(:hover) {
+    transition: all 0.3s ease;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+/*Formatação Imagem-Centro*/
+
+div#imagem-centro {
+    width: 100%;
+    height: 35%;
+    padding-right: 16px;
+    margin-left: -8px;
+    background: url("../_imagens/fundo.jpg");
+    opacity: 1;
+    color: rgba(0, 0, 0,0.0);
+    text-align: center;
+}
+
+h2.texto-centro {
+    position: relative;
+    margin: 0%;
+    top: 45%;
+}
+
+div#imagem-centro:hover {
+    opacity: 0.9;
+    transition:all 0.3s ease;
+    color: rgba(0, 0, 0,0.5);
+}
+
+div#imagem-centro:not(:hover) {
+    opacity: 1;
+    transition: all 1.0s ease;
+}
+
+/*Formatação Container Texto*/
+
+div.container-texto {
+    background-color: white;
+    width: 100%;
+    padding-top: 1px;
+    margin-left: -8px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+}
+
+div.container-texto div.texto {
+    position: relative;
+    left: 37%;
+    width: 25%;
+    text-align: center;
+}
+
+div.container-texto div.texto h3 {
+    font-size: 20pt;
+    margin-bottom: -10px;
+}
+
+div.container-texto div.texto p {
+    font-size: 12pt;
+    color: rgb(97, 97, 97);
+}
+
+/*Formatação Container-Base*/
+
+div.container-base {
+    margin-top: 2%;
+    width: 100%;
+    height: 65%;
+}
+
+/*Formatação Container-hover*/
+
+div.container-hover {
+    position: relative;
+    margin-left: 6%;
+    width: 22.5%;
+    height: 56%;
+    left: 4%;
+    margin-bottom: 1px;
+    float: left;
+}
+
+div.container-hover:hover a.opçoes {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+div.container-hover:hover p.preço {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+div.container-hover:not(:hover) a.opçoes {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+div.container-hover:not(:hover) p.preço {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+/*Formatação Container-Imagem*/
+
+div.container-imagem {
+    display: inline-block;
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    background-color: rgba(80, 80, 80, 0.2);
+    opacity: 0;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: rgb(97, 96, 96);
+}
+
+div.container-hover:hover div.container-imagem figcaption {
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+div.container-imagem:not(:hover) figcaption {
+    transition: all 0.3s ease;
+}
+
+/*Formatação Botão Comprar*/
+
+a.botao-comprar {
+    font-size: 9pt;
+    opacity: 0;
+    position: relative;
+    top: 70%;
+    background-color: white;
+    margin: 0px;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+
+a.botao-comprar:hover {
+    color: white;
+    background-color: rgb(49, 49, 49);
+}
+
+div.container-hover:hover div.container-imagem a.botao-comprar {
+    opacity: 1;
+    top: 50%;
+    transition: 0.3s;
+}
+
+div.container-imagem:not(:hover) a.botao-comprar {
+    top: 70%;
+    transition: 0.3s;
+
+}
+
+/*Formatação Container Info*/
+
+div.container-info {
+    background-color: white;
+    position: relative;
+    text-align: center;
+}
+
+h4.poster {
+    font-size: 9pt;
+    font-weight: 800;
+    position: relative;
+    margin: 0px;
+    top: 10px;
+}
+
+p.preço {
+    font-size: 10pt;
+    color: rgb(151, 151, 151)
+}
+
+a.opçoes {
+    position: relative;
+    top: -33px;
+    color: rgba(250, 211, 83, 0.904);
+    font-size: 9pt;
+    font-weight: 800;
+    text-decoration: none;
+    opacity: 0;
+}
+
+/*Formatação Div classe Footer*/
+
+.footer {
+    margin: 0%;
+    width: 100%;
+    border-top: 1px solid rgb(184, 179, 179);
+    float: left;
+    padding-bottom: 10px;
+}
+
+/*Formatação Footer ID Rodape*/
+
+footer#rodape {
+    width: 100%;
+}
+
+/*Formatação Div Centro*/
+
+div.centro {
+    width: 20%;
+    float: left;
+    margin-right: -20px;
+}
+
+div.centro p.facebook {
+    text-align: center;
+    font-weight: 700;
+}
+
+div.centro a {
+    text-decoration: none;
+    color: rgb(39, 95, 197);
+}
+
+div.centro h4 {
+    margin-left: 40px;
+    font-size: 12pt;
+}
+
+div.centro h4.direita {
+    margin-left: 0px; 
+}
+
+div.centro li {
+    list-style: none;
+    margin-bottom: 12%;
+}
+
+div.centro li a {
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+    font-size: 10pt;
+}
+
+div.centro li a:hover {
+    color: rgba(16, 150, 150, 0.836);
+}
+
+div.centro p {
+    font-size: 10pt;
+    color: rgb(148, 148, 148);
+}
+
+p.endereçoE {
+    margin-bottom: 0px;
+}
+
+input.email {
+    margin-left: 0.5%;
+    border-radius: 2px;
+    padding: 3%;
+    padding-right: 30%;
+    border: 2px solid rgba(189, 189, 189, 0.521);
+    background-color: rgb(240, 238, 238);
+}
+
+button.btn-enviar {
+    background-color: rgb(48, 161, 226);
+    border: 0px;
+    margin: 2px;
+    margin-top: 5px;
+    padding: 20px 105px;
+    color: white;
+    font-size: 10pt;
+    font-weight: bolder;
+}
+
+button.btn-enviar:hover {
+    background-color: #333;
+    transition: 0.3s;
+}
+
+button.btn-enviar:not(:hover) {
+    background-color: rgb(48, 161, 226);
+    transition: 0.3s;
+}
+
+::selection {
+    background-color:  rgb(156, 247, 247);
+    color: rgb(58, 57, 57);
+}
+
+}
